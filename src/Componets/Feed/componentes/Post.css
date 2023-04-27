@@ -1,0 +1,14 @@
+.posts {
+    background: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 468px;
+    min-height: 518px;
+    margin: 12px 0 0 0;
+}
+
+.contPost {
+    background: #cacaca;
+    width: 468px;
+    height: 468px;
+}

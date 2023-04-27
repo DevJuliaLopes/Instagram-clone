@@ -1,0 +1,23 @@
+.App{
+    display: flex;
+    justify-content: space-between;
+
+}
+.LadoEsquerdo, .Center, .LadoDireito{
+    height: 100vh;
+
+}
+.LadoEsquerdo{
+    background: rgb(195, 31, 31);
+    border-right: 1px solid #ccc;
+    width: 20vw;
+
+}
+.LadoDireito{
+    background: rgb(195, 31, 31);
+    width: 15vw;
+
+}
+.center{
+    background: rgb(0, 0, 0);
+}
