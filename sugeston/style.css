@@ -1,0 +1,97 @@
+.csugestao {
+    margin-top: 18px;
+}
+
+.hsugest{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hsugest img {
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.informac {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    flex: 1;
+}
+.informac .inf span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.informac .inf p{
+    font-size: 13px;
+    color: var(--secondary);
+}
+.informac .escolher{
+    
+    font-weight: 500;
+    color: var(--quartary);
+    cursor: pointer;
+}
+.hmain-sug {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+.hmain-sug p {
+    font-size: 15px;
+    color: var(--secondary);
+    font-weight: 500;
+}
+.hmain-sug span {
+    font-size: 13px;
+    color: var(--secondary);
+    cursor: pointer; 
+}
+.usersug {
+    margin-top: 5px;
+}
+.infor img {
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.infor{
+    margin: 15px 0 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.infr {
+    flex: 1;
+}
+.infr span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.infr p{
+    font-size: 13px;
+    color: var(--secondary);
+    margin-top: 3px;
+}
+.infor .segui{
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--quartary);
+    font-weight: 500;
+}
+.sugestoes{
+    margin-top: 25px;
+    flex: 1;
+}
+.sugestoes p{
+    font-size: 12px;
+    color: var(--tertiary);
+
+    margin-bottom: 15px;
+    cursor: pointer;
+}

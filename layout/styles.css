@@ -1,0 +1,24 @@
+.centro {
+    display: grid;
+
+    grid-template-areas: "fisrtColumn secondColumn";
+    grid-template-columns: 614px 293px;
+
+    max-width: 957px ;
+
+    margin: 100px auto;
+    grid-gap: 35px;
+}
+
+
+.box, .posts {
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.sugestaao {
+    flex: 1;
+    position: fixed;
+    max-width: 293px;
+}

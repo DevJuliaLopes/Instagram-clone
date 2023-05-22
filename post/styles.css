@@ -1,0 +1,78 @@
+.hpost {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+    
+}
+.hpost img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.informac-post {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footer-post{
+    padding: 10px 15px;
+    
+}
+
+.engajamentos{
+    display: flex;
+    justify-content: space-between;
+}
+.arruma {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+   
+.icon {
+    cursor: pointer;
+}
+.like {
+    margin-top: 6px;
+}
+.like span {
+    font-size: 15px;
+    font-weight: 500;
+}
+.legenda{
+    margin: 6px 0 3px;
+}
+.legenda p span{
+    font-weight: 500;
+}
+.Time-post time{
+    font-size: 11px;
+    color: var(--secondary);
+}
+.coments{
+    border-top: 1px solid var(--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+.fake-comentar{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+}
+.fake-comentar input {
+    font-size: 16px;
+}
+.coments button {
+    color: var(--quartary);
+    font-weight: 500;
+    cursor: pointer;
+}
+.img-post .gari {
+    width: 100%;
+}
+.icon8:hover{
+    color: rgb(95, 149, 241);
+}

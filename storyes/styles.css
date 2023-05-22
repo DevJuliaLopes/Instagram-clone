@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    margin-top: 2px;
+    cursor: pointer;
+    
+}
+
+.user-elements div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#412bbf, #56d3e3);
+}
+.imagem {
+    border: 2px solid var(--background);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.user-elements span {
+    font-size: 13px;
+    cursor: pointer;
+    gap: 20px;
+}
